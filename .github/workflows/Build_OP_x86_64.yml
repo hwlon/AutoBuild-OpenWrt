@@ -78,8 +78,7 @@ jobs:
       run: |   
         git clone https://github.com/hwlon/luci-app-poweroff.git package/lean/luci-app-poweroff
     #    git clone https://github.com/xiaorouji/openwrt-passwall.git package/lienol 
-    #    git clone "your_github_link" package/"your_folder_name" 
-        sed -i 's/src-git helloworld/#src-git helloworld/g' ./feeds.conf.default
+    #    git clone "your_github_link" package/"your_folder_name"         
         
     - name: Configuration Customization - Build_x86_64
       env:
